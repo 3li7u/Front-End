@@ -1,0 +1,251 @@
+/*/////////////////////////////// reset ////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;900&display=swap');
+
+*,
+html,
+body {
+	outline: none !important;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+}
+
+a {
+	color: #000 !important;
+}
+
+a:hover {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.fa,
+.fab,
+.fas,
+.far {
+	color: #333;
+	font-weight: lighter;
+	padding: 15px;
+}
+
+/*///////////////////////// Navigation ///////////////////////////*/
+
+nav {
+	background: none;
+}
+
+nav img {
+	width: 33%;
+}
+
+.nav-item {
+	padding: 0px 20px !important;
+}
+
+.nav-link:hover,
+.homebtn {
+	transition: ease-in-out .3s;
+	background-color: #b2dd4c;
+	color: #fff !important;
+	border-radius: 5px;
+}
+
+.icon {
+	position: relative;
+	display: inline-block;
+}
+
+.mybadge {
+	font-size: 10pt;
+	width: 20px;
+	height: 20px;
+	padding: 0px 6px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 50%;
+	background: #b2dd4c;
+	color: white;
+}
+
+.navbar-toggler {
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+		no-repeat;
+}
+
+@media (max-width: 992px) {
+	.navbar-nav {
+		float: left;
+		text-align: left !important;
+	}
+	nav img {
+		width: 30%;
+	}
+}
+
+/*//////////////////////hero srction///////////////////////////////////*/
+
+.hero {
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+svg {
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+
+svg.top {
+	-webkit-transform: translateY(-150px);
+	transform: translateY(-150px);
+}
+svg.bottom {
+	-webkit-transform: translateY(150px);
+	transform: translateY(150px);
+}
+
+polygon {
+	fill: #fff;
+}
+
+.herocontent {
+	margin: 60% auto;
+}
+
+.checkbtn {
+	color: #fff !important;
+	background: #b2dd4c !important;
+}
+
+.buybtn {
+	background: none !important;
+	border: 1px #b2dd4c solid !important;
+}
+.buybtn:hover {
+	transition: all .5s;
+	color: #fff !important;
+	background: #b2dd4c !important;
+}
+
+/*///////////////// section ////////////////////////////*/
+
+section {
+	text-align: center;
+	padding: 75px 0;
+}
+
+section .fas {
+	font-size: 34px;
+	margin-bottom: 50px;
+	color: #fff;
+	background-color: #b2dd4c;
+	padding: 30px;
+	border-radius: 50%;
+	border: 1px solid #b2dd4c;
+}
+
+section .fas:hover {
+	transition: ease-in-out .7s;
+	color: #b2dd4c;
+	background-color: #fff;
+}
+
+/*////////////////app Section ///////////////////////*/
+
+.app {
+	text-align: left;
+	max-height: 1000px;
+	background: #f5f5f5;
+}
+
+.app .imgapp {
+	width: 70%;
+}
+
+/*//////////////// pruducts Section ///////////////////////*/
+
+.pruduct {
+	text-align: left;
+	margin: auto;
+}
+
+.pruimg span {
+	width: 40px;
+	height: 30px;
+	padding: 7px;
+	font-size: 9pt;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #b2dd4c;
+	color: #fff;
+	border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+	.pruduct {
+		width: 80%;
+	}
+}
+.pruduct .details {
+	border: 2px solid #e6e6e6;
+}
+
+.details .drow {
+	display: flex;
+}
+.pruduct .dcol {
+	text-align: center;
+	width: 50%;
+	border-top: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+}
+
+.col i {
+	color: #b2dd4c;
+	margin-top: 25px;
+	padding: 0;
+	font-size: 9pt;
+}
+
+.dcol p,
+.drow p {
+	font-size: 10pt;
+	margin: 15px;
+}
+.dcol:hover {
+	color: #fff;
+	background-color: #b2dd4c;
+}
+.drow h6 {
+	margin: 15px 0;
+}
+
+/*///////////////////////// add Section /////////////////////////*/
+
+.add {
+	background-color: #f5f5f5;
+	text-align: left;
+}
+
+/*////////////////////////Footer/////////////////////////*/
+
+footer {
+	background: #333;
+	text-align: center;
+	padding: 40px 0px;
+	color: #fff;
+}
+
+footer p {
+	height: 20px;
+}
+
+footer a {
+	color: #757575 !important;
+}
+footer a:hover {
+	color: #fff !important;
+}
